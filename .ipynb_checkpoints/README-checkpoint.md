@@ -35,10 +35,12 @@ Despite this, the author found the results to be sufficient for the purpose of t
 - box plots comparing strategy proportion in the 10x10 and 50x50 simulation for each tag 
 - why box plot? only 10 data points per plot point, not sufficient data to show just mean. wanted to display distribution of the data
 
-###strategy-proportions
+- 10x10strategy-proportions
+- 10x10 box plot comparing strategy proportions per tag for last 100 cycles out of 1000 total cycles over 10 worlds 
+
+50x50strategy-proportions
 - analysis of ethnocentrism code generated from function RUN
 - 10x10 box plot comparing strategy proportions per tag for last 100 cycles out of 1000 total cycles over 10 worlds 
-- 50x50 box plot comparing strategy proportions per tag for last 100 cycles out of 1000 total cycles over 10 worlds 
 
 
 **Quick note:**
