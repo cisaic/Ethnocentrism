@@ -30,7 +30,7 @@ Despite this, the author found the results to be sufficient for the purpose of t
 ### 50x50strategy-freq
 - same as above but for 50x50 population size
 
-#### population-strategy-proportions
+### population-strategy-proportions
 - analysis of ethnocentrism code generated from function RUN
 - box plots comparing strategy proportion in the 10x10 and 50x50 simulation for each tag 
 - why box plot? only 10 data points per plot point, not sufficient data to show just mean. wanted to display distribution of the data
