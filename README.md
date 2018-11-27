@@ -43,5 +43,5 @@ Despite this, the author found the results to be sufficient for the purpose of t
 - 10x10 box plot comparing strategy proportions per tag for last 100 cycles out of 1000 total cycles over 10 worlds 
 
 
-Quick note:
+**Quick note:**
 I realize there's a lot of unecessary repetiton in this code that could easily have been avoided by creating a list of dataframe variable names and generating the different dataframes in a for loop then saving the data to a csv for subsequent programs to access... unfortunately I lacked the foresight to prevent this from happening and the time to refactor the code. Please enjoy the pain
