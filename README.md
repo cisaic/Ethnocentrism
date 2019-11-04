@@ -95,9 +95,12 @@ Clone agent at r, c to an empty neighboring location, if any, after possible mut
                      :igs igs
                      :ogs ogs
                      :ptr *base-ptr*)))))
+```
 
 **Modification of IMMIGRANT function**
 **set tag = 1 instead of (random *ntags*)**
+
+```
 
 (defun immigrant ()
   "()
