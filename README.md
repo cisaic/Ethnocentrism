@@ -44,9 +44,6 @@ To ensure the 'uniqueness' of each agent, the tag mutation probability of offspr
 I realize there's a lot of unecessary repetiton in this code that could easily have been avoided by creating a list of dataframe variable names and generating the different dataframes in a for loop then saving the data to a csv for subsequent programs to access... unfortunately I lacked the foresight to prevent this from happening and the time to refactor the code. Please enjoy the pain
 
 # Graphing data/code
-**Please visit the following link to see the python code used to generate the graphs**
-**keep in mind, not all graphs made it into the lab report**
-https://github.com/cisaic/ethnocentrism-psyc315
 
 # Code modifications
 **Made very few modifications and it's hard to search through whole code**
@@ -56,6 +53,7 @@ https://github.com/cisaic/ethnocentrism-psyc315
 
 **Modification made to the MUTATE function ensure tag automatically mutates in a clone**
 
+```
 (defun mutate (trait current)
   "(trait current)
 Mutate trait from current value if random probability < *mutation-rate*.
@@ -65,6 +63,7 @@ If trait is tag, automatically mutate"
     (if (< (random 1.0) *mutation-rate*)
         (random-mutation current (values-of-trait trait))
       current)))
+```
 
 ## 1-tag-code
 
@@ -72,6 +71,7 @@ If trait is tag, automatically mutate"
 **Commented out function that does that**
 **Since there's only 1 tag, offspring tag must be same kind**
 
+```
 (defun clone (r c)
   "(r c)
 Clone agent at r, c to an empty neighboring location, if any, after possible mutations."
@@ -113,3 +113,4 @@ Make 1 immigrant with random characteristics."
                   :igs igs
                   :ogs ogs
                   :ptr *base-ptr*))))
+```
