@@ -2,7 +2,7 @@
 
 # Ethnocentrism assignment
 
-This repo holds the analysis files for the PSYC 315 Ethnocentrism assignment
+This repo holds the analysis files + simulation code for the Computational Psychology Ethnocentrism assignment
 
 For this assignment, 3 simulations (run, run-all-strategies, run1plots) were run for 2 x 5 parameters 
 Two different population sizes were simulated: 10x10 and 50x50
