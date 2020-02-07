@@ -1,3 +1,5 @@
+# Please read the lab report pdf for full description of the project 
+
 # Ethnocentrism assignment
 
 This repo holds the analysis files for the PSYC 315 Ethnocentrism assignment
